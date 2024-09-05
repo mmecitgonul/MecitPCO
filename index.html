@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <!--Meta/Title-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mecit Home</title>
+
+        
+        
+        <Style>
+
+        body{
+            overflow-x: hidden;
+            background-color:rgba(207, 228, 228, 0.534);
+            background-image: url(res/backgroundgif.gif);
+            background-size:cover;
+        }
+
+        .triangle-down{
+        	width: 0;
+        	height: 0;
+        	border-left: 450px solid transparent;
+        	border-right: 450px solid transparent;
+        	border-top: 450px solid #000000a1;
+            margin: auto;
+        }   
+
+        .triangle-up {
+        	width: 0;
+        	height: 0;
+        	border-left: 407px solid transparent;
+        	border-right: 407px solid transparent;
+        	border-bottom: 407px solid #000000a1;
+            margin: auto;
+        }
+
+        .square{
+            height: 190px;
+            width: 190px;
+            background-color: #9c6a3e;
+            rotate: 45deg;
+            margin: auto;
+        }
+
+        .square-big{
+            height: 380px;
+            width: 380px;
+            background-color: #000000;
+            rotate: 45deg;
+            margin: auto;
+        }
+
+        .sidenavleft {
+            height: 100%;
+            width: 235px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 10px;
+        }
+
+        .sidenavright {
+            height: 100%;
+            width: 215px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        .sidenavleft a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+        }
+
+        .sidenavright ul {
+            padding: 6px 8px 6px 16px;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transform: translate(10%, 0%);
+            list-style-type: upper-roman;
+        }
+        .sidenavright a  {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+        }
+
+        .sidenavleft a:hover {
+            color: #662c2c;
+        }
+        .sidenavright a:hover {
+            color: #f1f1f1;
+        }
+
+        .square:hover{
+            opacity: 0.8;
+        }
+
+        .squarelink{
+            background-color: aliceblue;
+        }
+
+        .squareimage{
+            width: 90%;
+        }
+
+        a{
+            font-size: 200%;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+
+        </Style>
+
+    </head>
+
+
+    <body>
+ 
+        
+        <div style="display: inline-flex;">   
+            <div style="z-index: 3; transform: translate(25.1%, -1.7%);" class="triangle-down"></div>
+
+            <div style="transform: translate(-73.5%, 18%); display: inline-flex; z-index: 10;">
+                <a style="background-color: #e0db8d; transform: translate(241%, 59%);" href="extras.html" class="square">Extras</a>
+                <a style="background-color: rgb(156, 81, 51); transform: translate(270%, 30%);" href="profile.html" class="square">Profile</a>
+                <a style="background-color: rgb(50, 51, 73); transform: translate(0%, 100.5%);" href="dashboard.html" class="square">Dashboard</a>
+                <a style="background-color: rgb(209, 226, 226); transform: translate(29%, 171.5%);" href="faq.html" class="square">FAQ</a>
+
+                
+                <a style="background-color:rgb(126, 40, 57); transform: translate(-41.5%, 142.5%);" href="blog.html"
+                class="square"><img src="" class="squareimage"></img>Blog</a>
+                
+
+            </div>
+
+            <div style="transform: translate(-73.5%, 18%); display: inline-flex; ">
+                <div style="transform: translate(-19%, 69%);" class="square-big">
+                <img style="width: 100%; height: 100%;" src="res/pic5.jpg" class="squareimage"></img></div>  
+
+                <div style="transform: translate(10.2%, 40%);" class="square-big"> 
+                <img style="width: 100%; height: 100%;" src="res/pic4.jpg" class="squareimage"></img></div>
+
+                <div style="opacity: 0; transform: translate(-60.5%, 210.7%);" class="square-big">
+                <img style="width: 100%; height: 100%;" src="" class="squareimage"></img></div>
+
+                <div style="transform: translate(-31.3%, 231%);" class="square-big">                    
+                <img style="width: 100%; height: 100%;" src="res/pic1.jpg" class="squareimage"></img></div> 
+                   
+                <div style="transform: translate(-252.1%, 451.7%);" class="square-big"> 
+                <img style="width: 100%; height: 100%;" src="res/pic2.jpg" class="squareimage"></img></div>
+            </div>    
+            
+            <div style= "transform: translate(-427.7%, 168.5%);" class="triangle-up"></div>
+        </div>    
+
+        <aside>
+            <div class="sidenavleft">
+                <a href="index.html">Home</a>
+                <a href="profile.html">Profile</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="faq.html">FAQ</a>
+                <a href="blog.html">Blog</a>
+                <a href="extras.html">Extras</a>
+                <hr></hr>                
+                <a style="font-size: 100%;" href="https://github.com/HZ-HBO-ICT" target="_blank">Github HBO-ICT</a>
+                <a style="font-size: 100%;" href="https://shorturl.at/5Yn47" target="_blank">PCO Notion</a>
+                <a style="font-size: 100%;" href="https://hz.osiris-student.nl/voortgang" target="_blank">Progress MyHZ</a>
+                <a style="font-size: 100%;" href="https://shorturl.at/pXqPK" target="_blank">Regulations Bachelor HZ</a>
+                <a style="font-size: 100%;" href="https://shorturl.at/0y8XQ" target="_blank">Implementations HBO-ICT</a>
+                <hr></hr>
+                <a style="color: rgb(119, 60, 65);" href="index.html">- Home</a>
+            </div>
+    
+            <div class="sidenavright"></div>
+        </aside>
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
