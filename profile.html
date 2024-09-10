@@ -68,6 +68,7 @@
             font-size: 25px;
             color: #818181;
             display: block;
+            
         }
 
         .sidenavright a  {
@@ -80,6 +81,7 @@
 
         .sidenavleft a:hover {
             color: #662c2c;
+            zoom: 120%;
         }
         .sidenavright a:hover {
             color: #f1f1f1;
@@ -113,7 +115,22 @@
         }
 
        
-    
+        .dark-mode {
+            background-image: url(res/backgroundgiflight.gif) !important;
+
+            .sidenavleft, .sidenavright{
+                background-color: rgba(255, 255, 255, 0.925);
+            }
+            .sidenavright a, .sidenavleft a, .sidenavright ul, h4, h2, h1{
+                color: #000000 !important;
+                
+            }
+        }
+
+        .lightmode:hover{
+            opacity: 0.5;
+        }
+
 
         </Style>
 
@@ -121,6 +138,13 @@
 
 
     <body>
+
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+        </script>
 
         <div style="display: inline-flex;">   
             <div style="transform: translate(-3%, -23%); display: inline-flex;">
@@ -197,6 +221,7 @@
                 <hr style="width: 70%;"></hr>
                 <h4 style="font-size: 130%; width: 70%; margin: auto; text-align: center; color: #c5c5c9;">Made with HTML + CSS</h4>
                 <br></br>
+                <button class="lightmode" style="text-align: center; font-weight: bold; font-size: 120%; color: #b1be00e0; background-color: #00f5f52c; width: 300px; " onclick="myFunction()">💡</button>
             </div>
         </aside>
 

@@ -14,7 +14,6 @@
 
         body{
             overflow-x: hidden;
-            background-color:rgba(207, 228, 228, 0.534);
             background-image: url(res/backgroundgif.gif);
             background-size:cover;
         }
@@ -43,12 +42,14 @@
             background-color: #9c6a3e;
             rotate: 45deg;
             margin: auto;
+            transition: 1s;
         }
 
         .square-big{
             height: 380px;
             width: 380px;
             background-color: #000000;
+            box-shadow: 5px 5px 5px 5px #395351;
             rotate: 45deg;
             margin: auto;
         }
@@ -115,13 +116,15 @@
 
         .sidenavleft a:hover {
             color: #662c2c;
+            zoom: 120%;
         }
         .sidenavright a:hover {
             color: #f1f1f1;
         }
 
         .square:hover{
-            opacity: 0.8;
+            opacity: 0.6;
+            box-shadow: 10px 10px 20px 5px #14110f;
         }
 
         .squarelink{
@@ -144,14 +147,45 @@
         }
 
         .divpic:hover{
-            
             opacity: 0;
+        }
+
+        .dark-mode {
+            background-image: url(res/backgroundgiflight.gif) !important;
+
+            .sidenavleft, .sidenavright{
+                background-color: rgba(255, 255, 255, 0.925);
+            }
+            .sidenavright a, .sidenavleft a, .sidenavright ul, h4, h2, h1{
+                color: #000000 !important;
+            }
+            h3{
+                color: #000000 !important;
+                margin-top: 55px;
+            }
+            .triangle-up{
+                border-bottom: #eeeeee ;
+            }
+            .triangle-down{
+                border-top: #ffffff;
+                
+            }
+        }
+
+        .lightmode:hover{
+            opacity: 0.5;
         }
 
         </Style>
     </head>
     <body>
         
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+        </script>
         
         
         <div style="display: inline-flex;">   
@@ -231,19 +265,20 @@
                 <hr style="width: 70%;"></hr>
                 <h4 style="font-size: 130%; width: 70%; margin: auto; text-align: center; color: #c5c5c9;">Made with HTML + CSS</h4>
                 <br></br>
+                <button class="lightmode" style="text-align: center; font-weight: bold; font-size: 120%; color: #b1be00e0; background-color: #00f5f52c; width: 300px; " onclick="myFunction()">💡</button>
             </div>
             
         </aside>
 
         <div style="display: flex;">
-            <h3 style="display: flex; color: aliceblue; transform: translate(85%, -1550%); font-size: 150%;">"Not Because I want It But Because I &nbsp; <span style="color: brown"> NEED </span> &nbsp; It"</h3>
+            <h3 style="display: flex; color: aliceblue; transform: translate(86%, -850%); font-size: 150%;">"Not because I want it but because I&nbsp; <span style="font-family:Franklin Gothic Medium; transform: translate(0%, -29%); font-size: 40px; color: brown">NEED</span> &nbsp;it"</h3>
         </div>
 
         <div style="z-index: 2; transform: translate(0%, -38%);">
             
             <img style=" transform: translate(287%, 170%); width: 15%;" src="res/mepic5.png"></img>
             <img class="divpic" style="transform: translate(185%, 170%); width: 15%;" src="res/mepic4.png">
-            <img style="transform: translate(8%, -120%); width: 35%;" src="res/linepic.png">
+            <img style="transform: translate(8%, -120%); height: 5%; width: 35%;" src="res/linepic.png">
             <h2 style="color: aliceblue; transform: translate(33%, 580%); position: relative; font-size: 300%;">-Müçteba Mecit Gönül</h2></img>
             
         </div>
