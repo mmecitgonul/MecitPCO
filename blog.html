@@ -24,6 +24,7 @@
             width: 220px;
             background-color: rgb(203, 204, 204);
             margin: auto;
+            transition: width 1s;
         }
 
         .sidenavleft {
@@ -36,6 +37,8 @@
             background-color: #111;
             overflow-x: hidden;
             padding-top: 10px;
+            box-shadow: 2px 2px #c5c5c998;
+            transition: width 2s;
         }
 
         .sidenavright {
@@ -48,6 +51,15 @@
             background-color: #111;
             overflow-x: hidden;
             padding-top: 20px;
+            box-shadow: -2px -2px #c5c5c998;
+            transition: width 2s;
+        }
+
+        .sidenavright:hover {
+        width: 300px;
+        }
+        .sidenavleft:hover {
+        width: 300px;
         }
 
         .sidenavleft a {
@@ -94,6 +106,10 @@
             color: black;
         }
 
+        .square-medium:hover{
+            width: 208px;
+        }
+
         </Style>
     </head>
     <body>
@@ -101,7 +117,7 @@
 
         <div style="display: inline-flex; z-index: 10;">   
             <div style="transform: translate(-20%, -38%); display: inline-flex; ">
-                <a href="blogs/blog6.html" style=" transform: translate(271%, 50%); background-color: #6e9442;" class="square-medium">
+                <a href="blogs/blog6.html" style="transform: translate(271%, 50%); background-color: #6e9442;" class="square-medium">
                     <h1>Profession<hr></hr>(08/09/2024)</h1></a>  
 
                 <a href="blogs/blog1.html" style="transform: translate(208.5%, 157.7%); background-color: #a09a9a;" class="square-medium"> 
@@ -196,7 +212,14 @@
                 <a style="transform: translate(5%, 0%); color: rgb(119, 60, 65);" href="blog.html">-- Blog</a>
             </div>
     
-            <div class="sidenavright"></div>
+            <div class="sidenavright">
+                <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img>
+                <br></br>
+                <h4 style="font-size: 120%; width: 90%; margin: auto; text-align: center; color: #c5c5c9;">Müçteba Mecit Gönül PCO Website</h4>
+                <hr style="width: 70%;"></hr>
+                <h4 style="font-size: 130%; width: 70%; margin: auto; text-align: center; color: #c5c5c9;">Made with HTML + CSS</h4>
+                <br></br>
+            </div>
         </aside>
 
 

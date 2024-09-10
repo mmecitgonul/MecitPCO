@@ -29,6 +29,8 @@
             background-color: #111;
             overflow-x: hidden;
             padding-top: 10px;
+            box-shadow: 2px 2px #c5c5c998;
+            transition: width 2s;
         }
 
         .sidenavright {
@@ -41,6 +43,15 @@
             background-color: #111;
             overflow-x: hidden;
             padding-top: 20px;
+            box-shadow: -2px -2px #c5c5c998;
+            transition: width 2s;
+        }
+
+        .sidenavright:hover {
+        width: 300px;
+        }
+        .sidenavleft:hover {
+        width: 300px;
         }
 
         .sidenavleft a {
@@ -85,24 +96,35 @@
 
         details > summary {
         padding: 7px;
-        width: 250px;
-        background-color: #94817aa1;
+        width: 320px;
+        background-color: #c59f91a1;
         border: none;
         box-shadow: 0px 2px 0px #7c7a7a;
         cursor: pointer;
-        font-size: 140%;
+        font-size: 150%;
         text-align: center;
         margin: auto;
         }
 
         details > p {
         background-color: #dbd7d7e1;
-        padding: 4px;
+        padding: 7px;
         margin: 0;
         text-align: center;
-        font-size: 120%;
+        font-size: 160%;
         box-shadow: 1px 1px 2px #bbbbbb;
         }
+
+        details[open] summary ~ * {
+        animation: sweep .5s ease-in-out;
+        }
+        
+        @keyframes sweep {
+        0%    {opacity: 0; margin-left: -10px}
+        100%  {opacity: 1; margin-left: 0px}
+        }
+        
+        
 
         </Style>
 
@@ -215,7 +237,14 @@
                 <a style="transform: translate(5%, 0%); color: rgb(119, 60, 65);" href="faq.html">-- FAQ</a>
             </div>
     
-            <div class="sidenavright"></div>
+            <div class="sidenavright">
+                <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img>
+                <br></br>
+                <h4 style="font-size: 120%; width: 90%; margin: auto; text-align: center; color: #c5c5c9;">Müçteba Mecit Gönül PCO Website</h4>
+                <hr style="width: 70%;"></hr>
+                <h4 style="font-size: 130%; width: 70%; margin: auto; text-align: center; color: #c5c5c9;">Made with HTML + CSS</h4>
+                <br></br>
+            </div>
         </aside>
 
 

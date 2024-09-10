@@ -63,6 +63,8 @@
             background-color: #111;
             overflow-x: hidden;
             padding-top: 10px;
+            box-shadow: 2px 2px #c5c5c998;
+            transition: width 2s;
         }
 
         .sidenavright {
@@ -75,6 +77,15 @@
             background-color: #111;
             overflow-x: hidden;
             padding-top: 20px;
+            box-shadow: -2px -2px #c5c5c998;
+            transition: width 2s;
+        }
+
+        .sidenavright:hover {
+        width: 300px;
+        }
+        .sidenavleft:hover {
+        width: 300px;
         }
 
         .sidenavleft a {
@@ -99,6 +110,7 @@
             font-size: 25px;
             color: #818181;
             display: block;
+            
         }
 
         .sidenavleft a:hover {
@@ -128,6 +140,7 @@
 
         .divpic{
            font-family: Cambria;
+           transition: opacity 0.5s;
         }
 
         .divpic:hover{
@@ -211,18 +224,28 @@
 
             
     
-            <div class="sidenavright"></div>
+            <div class="sidenavright">
+                <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img>
+                <br></br>
+                <h4 style="font-size: 120%; width: 90%; margin: auto; text-align: center; color: #c5c5c9;">Müçteba Mecit Gönül PCO Website</h4>
+                <hr style="width: 70%;"></hr>
+                <h4 style="font-size: 130%; width: 70%; margin: auto; text-align: center; color: #c5c5c9;">Made with HTML + CSS</h4>
+                <br></br>
+            </div>
             
         </aside>
 
+        <div style="display: flex;">
+            <h3 style="display: flex; color: aliceblue; transform: translate(85%, -1550%); font-size: 150%;">"Not Because I want It But Because I &nbsp; <span style="color: brown"> NEED </span> &nbsp; It"</h3>
+        </div>
 
-        <div style="z-index: 2;">
+        <div style="z-index: 2; transform: translate(0%, -38%);">
             
             <img style=" transform: translate(287%, 170%); width: 15%;" src="res/mepic5.png"></img>
             <img class="divpic" style="transform: translate(185%, 170%); width: 15%;" src="res/mepic4.png">
-            <h2 style="color: aliceblue; transform: translate(33%, 580%); position: relative; font-size: 300%;">Müçteba Mecit Gönül</h2></img>
-            <hr style="transform:translate(0%, 15000%) "></hr>
-            <hr style="transform:translate(0%, -39500%) "></hr>
+            <img style="transform: translate(8%, -120%); width: 35%;" src="res/linepic.png">
+            <h2 style="color: aliceblue; transform: translate(33%, 580%); position: relative; font-size: 300%;">-Müçteba Mecit Gönül</h2></img>
+            
         </div>
 
     </body>
