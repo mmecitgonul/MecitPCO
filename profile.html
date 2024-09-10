@@ -23,8 +23,7 @@
             height: 220px;
             width: 220px;
             background-color: rgb(203, 204, 204);
-            rotate: 45deg;
-            margin: auto;
+            transition: 2s;
         }
 
         .sidenavleft {
@@ -96,22 +95,16 @@
         }
 
         h1{
-            rotate: -45deg;
             font-size: 150%;
-            transform: translate(2%, -100%);
         }
 
         .profiletext{
-            rotate: -45deg;
             font-size: 100%;
-            transform: translate(0%, -0%);
             text-align: center;
         }
 
         .profileul{
-            rotate: -45deg;
             font-size: 120%;
-            transform: translate(1%, -7%);
         }
 
        
@@ -131,6 +124,29 @@
             opacity: 0.5;
         }
 
+        .square-medium:hover{
+            box-shadow: 2px 2px 2px 2px black inset;
+            transform: scale(1.5);
+
+            z-index: 3 !important;
+        }
+
+
+        img{
+            transition: 2s;
+        }
+
+        img:hover{
+            box-shadow: 2px 2px 2px 2px black inset;
+            transform: scale(1.5);
+
+            z-index: 1 !important;
+        }
+
+        .gitpic:hover{
+            opacity: 0.3 !important;
+        }
+
 
         </Style>
 
@@ -146,54 +162,57 @@
             }
         </script>
 
-        <div style="display: inline-flex;">   
-            <div style="transform: translate(-3%, -23%); display: inline-flex;">
-
-                <div style="transform: translate(420%, -172%); background-color: #69724a;" class="square-medium">
-                <h1 style="margin-left: 20px;">Mission</h1><p style="margin-right: 30px; margin-top: 20px;" class="profiletext">To color this institution and everyone in it in my own colors.</p>
-                <p style="transform: translate(20%, 120%);" class="profiletext"></p></div>  
-
-                <div style="transform: translate(152.5%, 97%); background-color: #8f7451;" class="square-medium">
-                    <h1 style="margin-left: 20px;">Quirks</h1><p style="margin-right: 7px;" class="profiletext">I can speak English and Turkish, I
-                    can get you almost every cracked software, media or game, I can provide advice to anyone willing. 
-                    </p>
-                    <p style="transform: translate(20%, 120%);" class="profiletext"></p></div>  
-
-                <div style="transform: translate(181%, 69%); background-color: #4d523b;" class="square-medium">
-                    <h1 style="margin-left: 20px;">Story</h1><p class="profiletext">I was born in Turkey where I lived
-                    for 10 years, then I went to Iraq and stayed 9 years there, after that
-                    I moved to Netherlands where I currently attend HZ.</p>
-                    <p style="transform: translate(20%, 120%);" class="profiletext"></p></div>  
-
-                <div style="z-index: 2; transform: translate(10.2%, 40%); background-color: #7c8d7e;" class="square-medium">
-                <h1 style="margin-left: 10px;">General</h1>
-                 <ul class="profileul" style="margin-top: 30px;">
-                <li>Müçteba Mecit Gönül</li>
-                <li>21</li>
-                <li>Turkey/Iraq</li>
-                <li>Breda</li>
-                </ul>
-                <a style="display: contents;"
-                 href="https://github.com/mmecitgonul" target="_blank">
-                <img class="gitpic" style="transform: translate(128%, 105%); width: 45%; rotate: -45deg;" src="res/gitpic.png">
-                </img></a></div>
-
-                <div style="z-index: 1; transform: translate(-60.5%, 210.7%); background-color: #323d30;" class="square-medium"> 
-                <h1>Personality</h1><ul class="profileul" style="margin-left: 30px;">
-                <li>Reserved</li><li>Single-Minded</li><li>Timid</li>
-                <li>Eccentric</li><li>Perfectionist</li></ul>
-                <img style=" transform: translate(92%, -94%); width: 100%; rotate: -90deg;" src="res/mepic2.jpeg">
-                </img></div>
-
-                <div style="transform: translate(-31.3%, 181.3%); background-color: #5a7554;" class="square-medium">     
-                <h1>Interests</h1><ul class="profileul">
-                <li>Making lists & plans</li><li>Finding best media</li><li>PC tinkering</li>
-                <li>Proselytism</li></ul><img style="transform: translate(0%, -179%); width: 100%;" src="res/mepic.jpeg">
-                </img></div> 
-
-            </div>    
-        </div>
  
+        <center>
+        <div style=" transform: translate(17%, 10%); display: inline-flex">
+            <img style="margin-top:130px; width: 20%; height: 10%;" src="res/mepic.jpeg"></img>
+                    
+
+                <div>
+                    
+                <div style=" background-color: #c4d39a;" class="square-medium">
+                <h1 style="text-align: center;">Mission</h1><p class="profiletext">To color this institution and everyone in it in my own colors.</p>
+                <p class="profiletext"></p></div>  
+
+                
+
+                <div style="background-color: #9fb3a1;" class="square-medium">
+                <h1 style="text-align: center;">Personality</h1>
+                 <ul class="profileul">
+                <li>Reserved</li>
+                <li>Single-Minded</li>
+                <li>Timid</li>
+                <li>Eccentric</li>
+                <li>Perfectionist</li>
+                </ul>
+                </div>
+                
+            </div>
+
+               <div>
+                <div style=" background-color: #8d7e6c;" class="square-medium">
+                    <h1 style="text-align: center;">Story</h1><p class="profiletext">I was born in Turkey where I lived
+                        for 10 years, then I went to Iraq and stayed 9 years there, after that
+                        I moved to Netherlands where I currently attend HZ.</p>
+                    <p class="profiletext"></p></div>  
+    
+                    <div style="background-color: #96a180;" class="square-medium">
+                    <h1 style="text-align: center;">General</h1>
+                     <ul class="profileul">
+                    <li>Müçteba Mecit Gönül</li>
+                    <li>21</li>
+                    <li>Turkey/Iraq</li>
+                    <li>Breda</li>
+                    </ul>
+
+                    
+                </div>
+                
+            </div>
+            <img style="margin-top:130px; width: 15%; height: 5%;" src="res/mepic2.jpeg"></img>
+        </div>    
+
+    </center>
         
         <aside>
             <div class="sidenavleft">
@@ -215,13 +234,24 @@
             </div>
     
             <div class="sidenavright">
-                <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img>
+                <a style=" margin-bottom: auto; display: contents;"
+                href="https://hz.nl" target="_blank">
+                <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img></a>
                 <br></br>
                 <h4 style="font-size: 120%; width: 90%; margin: auto; text-align: center; color: #c5c5c9;">Müçteba Mecit Gönül PCO Website</h4>
                 <hr style="width: 70%;"></hr>
                 <h4 style="font-size: 130%; width: 70%; margin: auto; text-align: center; color: #c5c5c9;">Made with HTML + CSS</h4>
                 <br></br>
-                <button class="lightmode" style="text-align: center; font-weight: bold; font-size: 120%; color: #b1be00e0; background-color: #00f5f52c; width: 300px; " onclick="myFunction()">💡</button>
+                <center>
+                <button class="lightmode" style="font-weight: bold; font-size: 120%;
+                color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
+                <br></br><br></br><br></br><br></br></center>
+                <center>
+                <a style=" margin-bottom: auto; display: contents;"
+                 href="https://github.com/mmecitgonul" target="_blank">
+                <img class="gitpic" style="width: 50%; opacity: 0.7" src="res/gitpic.png">
+                </img></a><hr style="width: 70%;"></hr>
+                </center>
             </div>
         </aside>
 
