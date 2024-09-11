@@ -2,130 +2,31 @@
 <html lang="en">
     
     <head>
-        <!--Meta/Title-->
+        <!--CSS link/Meta/Title-->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles.css">
         <title>Programming Exp.</title>
-
-        
-        
-        <Style>
-
-        body{
-            overflow-x: hidden;
-            background-color:rgba(207, 228, 228, 0.534);
-            background-image: url(../res/backgroundgif.gif);
-            background-size:cover;
-        }
-
-        .sidenavleft {
-            height: 100%;
-            width: 235px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 10px;
-            box-shadow: 2px 2px #c5c5c998;
-            transition: width 2s;
-        }
-
-        .sidenavright {
-            height: 100%;
-            width: 215px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            right: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 20px;
-            box-shadow: -2px -2px #c5c5c998;
-            transition: width 2s;
-        }
-
-        .sidenavright:hover {
-        width: 300px;
-        }
-        .sidenavleft:hover {
-        width: 300px;
-        }
-
-        .sidenavleft a {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            
-        }
-
-        .sidenavright a  {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-        }
-
-        .sidenavleft a:hover {
-            color: #662c2c;
-            zoom: 120%;
-        }
-        .sidenavright a:hover {
-            color: #f1f1f1;
-        }
-
-        .dark-mode {
-            background-image: url(../res/backgroundgiflight.gif) !important;
-
-            .sidenavleft, .sidenavright{
-                background-color: rgba(255, 255, 255, 0.925);
-            }
-            .sidenavright a, .sidenavleft a, .sidenavright ul, h4, h2, h1, p{
-                color: #000000 !important;
-                
-            }
-        }
-
-        .lightmode:hover{
-            opacity: 0.5;
-        }
-
-        .gitpic:hover{
-            opacity: 0.3 !important;
-        }
-
-
-        </Style>
-
     </head>
 
 
     <body>
-
-        <script>
-            function myFunction() {
-               var element = document.body;
-               element.classList.toggle("dark-mode");
-            }
-        </script>
-
-        <div style="height: 8000%; width: 50%; display: table; transform: translate(0%, 10%);
-            margin: auto; background-color: #662c2cc2; padding: 15px;">
+        <!--BLOG-->
+        <div style="height: 8000%; width: 50%; display: table; transform: translate(0%, 10%);margin: auto; background-color: #662c2cc2; padding: 15px;">
             <h1 style="font-weight: bold; color: rgb(255, 239, 239); font-size: 200%; text-align: center;">Programming Exp.</h1>
-            <hr></hr><p style="color:beige; text-align: center; font-size: 120%;"
+            <hr></hr>
+            <p style="color:beige; text-align: center; font-size: 120%;"
             >I was trying to code as early as 15 years of age, but i could never do anything properly, as a result
             of this continuous cycle of failure I lost the desire to meddle in such areas, so you could say that I 
             never really did any code or programming, perhaps just the foundations but never a concrete thing,
-            fast forward 5 years and I'm ready to lit the fires again, this time I hope it will lead somewhere.</p>
+            fast forward 5 years and I'm ready to lit the fires again, this time I hope it will lead somewhere.
+            </p>
         </div>
 
  
         
+        <!--ASIDE/NAVIGATION BAR ETC.-->
         <aside>
             <div class="sidenavleft">
                 <a href="../index.html">Home</a>
@@ -141,113 +42,42 @@
                 <a style="font-size: 100%;" href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank">Regulations HBO-ICT</a>
                 <hr></hr>
                 <a style="color: #818181;" href="../index.html">- Home</a>
-                <a style="transform: translate(5%, 0%); color: #818181;"
-                 href="../blog.html">-- Blog</a>
-                 <a style="font-size: 130%; transform: translate(10%, 0%); color: rgb(119, 60, 65);"
-                 href="">--- Programming Exp.</a>
+                <a style="transform: translate(5%, 0%); color: #818181;" href="../blog.html">-- Blog</a>
+                <a style="font-size: 130%; transform: translate(9%, 0%); color: rgb(119, 60, 65);" href="">--- Programming Exp.</a>
             </div>
     
             <div class="sidenavright">
                 <a style=" margin-bottom: auto; display: contents;"
-                href="https://hz.nl" target="_blank">
-                <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="../res/hzbanner.png"></img></a>
+                    href="https://hz.nl" target="_blank">
+                    <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="../res/hzbanner.png"></img>
+                </a>
                 <br></br>
                 <h4 style="font-size: 120%; width: 90%; margin: auto; text-align: center; color: #c5c5c9;">Müçteba Mecit Gönül PCO Website</h4>
                 <hr style="width: 70%;"></hr>
                 <h4 style="font-size: 130%; width: 70%; margin: auto; text-align: center; color: #c5c5c9;">Made with HTML + CSS</h4>
                 <br></br>
                 <center>
-                <button class="lightmode" style="font-weight: bold; font-size: 120%;
-                color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
-                <br></br><br></br><br></br><br></br></center>
+                    <button class="lightmode" style="font-weight: bold; font-size: 120%;
+                    color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
+                    <br></br><br></br><br></br><br></br>
+                </center>
                 <center>
-                <a style=" margin-bottom: auto; display: contents;"
-                 href="https://github.com/mmecitgonul" target="_blank">
-                <img class="gitpic" style="width: 50%; opacity: 0.7" src="../res/gitpic.png">
-                </img></a><hr style="width: 70%;"></hr>
+                    <a style=" margin-bottom: auto; display: contents;"
+                      href="https://github.com/mmecitgonul" target="_blank">
+                      <img class="gitpic" style="width: 50%; opacity: 0.7" src="../res/gitpic.png"></img>
+                    </a>
+                    <hr style="width: 70%;"></hr>
                 </center>
             </div>
         </aside>
 
 
-
+        <!--Toogle Dark-mode Script-->
+        <script>
+            function myFunction(){
+              var element = document.body;
+              element.classList.toggle("dark-mode");
+            }
+        </script>
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>

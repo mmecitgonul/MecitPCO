@@ -2,233 +2,90 @@
 <html lang="en">
     
     <head>
-        <!--Meta/Title-->
+        <!--CSS link/Meta/Title-->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
         <title>Mecit FAQ</title>
-
-        
-        
-        <Style>
-
-        body{
-            overflow-x: hidden;
-            background-color:rgba(207, 228, 228, 0.534);
-            background-image: url(res/backgroundgif.gif);
-            background-size:cover;
-        }
-
-        .sidenavleft {
-            height: 100%;
-            width: 235px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 10px;
-            box-shadow: 2px 2px #c5c5c998;
-            transition: width 2s;
-        }
-
-        .sidenavright {
-            height: 100%;
-            width: 215px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            right: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 20px;
-            box-shadow: -2px -2px #c5c5c998;
-            transition: width 2s;
-        }
-
-        .sidenavright:hover {
-        width: 300px;
-        }
-        .sidenavleft:hover {
-        width: 300px;
-        }
-
-        .sidenavleft a {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            
-        }
-
-        .sidenavright a  {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-        }
-
-        .sidenavleft a:hover {
-            color: #662c2c;
-            zoom: 120%;
-        }
-        .sidenavright a:hover {
-            color: #f1f1f1;
-        }
-
-        .li1{
-            background-color: #662c2c;
-            text-align: center;
-            margin: 0 auto;
-            font-size: 120%;
-            color: aliceblue;
-            display: table;
-            list-style-type: none;
-        }
-        .li2{
-            background-color: #2c663f;
-            text-align: center;
-            margin: 0 auto;
-            font-size: 120%;
-            color: aliceblue;
-            display: table;
-            list-style-type: none;
-        }
-        ul{
-            list-style-type: none;
-        }
-
-        details > summary {
-        padding: 7px;
-        width: 320px;
-        background-color: #c59f91a1;
-        border: none;
-        box-shadow: 0px 2px 0px #7c7a7a;
-        cursor: pointer;
-        font-size: 150%;
-        text-align: center;
-        margin: auto;
-        }
-
-        details > p {
-        background-color: #dbd7d7e1;
-        padding: 7px;
-        margin: 0;
-        text-align: center;
-        font-size: 160%;
-        box-shadow: 1px 1px 2px #bbbbbb;
-        }
-
-        details[open] summary ~ * {
-        animation: sweep .5s ease-in-out;
-        }
-        
-        @keyframes sweep {
-        0%    {opacity: 0; margin-left: -10px}
-        100%  {opacity: 1; margin-left: 0px}
-        }
-        
-        .dark-mode {
-            background-image: url(res/backgroundgiflight.gif) !important;
-
-            .sidenavleft, .sidenavright{
-                background-color: rgba(255, 255, 255, 0.925);
-            }
-            .sidenavright a, .sidenavleft a, .sidenavright ul, h4, h2, h1{
-                color: #000000 !important;
-                
-            }
-        }
-
-        .lightmode:hover{
-            opacity: 0.5;
-        }
-
-        .gitpic:hover{
-            opacity: 0.3 !important;
-        }
-
-
-        </Style>
-
     </head>
 
 
     <body>
-
-        <script>
-            function myFunction() {
-               var element = document.body;
-               element.classList.toggle("dark-mode");
-            }
-        </script>
-
         <br></br>
         <hr style="width: 45%; margin-left: 385px;"></hr>
 
+
+        <!--FAQ List Items-->
         <div style="width: 30%; margin:auto; margin-top: 30px;">
-            
             <ul>
                 <li>
                     <details>
                     <summary>Where do you live?</summary><p>North Breda</p>
                     </details>
                 </li>
-                <li><br></br>
+                <li>
+                    <br></br>
                     <details>
                     <summary>How old are you?</summary><p>21</p>
                     </details>
                 </li>
-                <li><br></br>
+                <li>
+                    <br></br>
                     <details>
                     <summary>Why did you choose HZ?</summary><p>Flexibility</p>
                     </details>
                 </li>
-                
-                <li><br></br>
+                <li>
+                    <br></br>
                     <details>
                     <summary>Why did you choose ICT?</summary><p>Because computers are the only things that I'm somewhat capable with, that, and it's required for my plan.</p>
                     </details>
                 </li>
-                <li><br></br>
+                <li>
+                    <br></br>
                     <details>
                     <summary>Favorite teacher?</summary><p>Undecided</p>
                     </details>
                 </li>
-                <li><br></br>
+                <li>
+                    <br></br>
                     <details>
                     <summary>Do you have prior coding experience?</summary><p>little to none.</p>
                     </details>
                 </li>
-                <li><br></br>
+                <li>
+                    <br></br>
                     <details>
                     <summary>Favorite Game?</summary><p>The Life And Suffering Of Sir Brante</p>
                     </details>
                 </li>
-                <li><br></br>
+                <li>
+                    <br></br>
                     <details>
                     <summary>Favorite Film?</summary><p>Aguirre, The Wrath Of God</p>
                     </details>
                 </li>
-                <li><br></br>
+                <li>
+                    <br></br>
                     <details>
                     <summary>How can you print a document from your laptop at HZ?</summary><p></p>
                     </details>
                 </li>
-                <li><br></br>
+                <li>
+                    <br></br>
                     <details>
                     <summary>How can you scan a document and send it to your laptop at HZ?</summary><p></p>
                     </details>
                 </li>
-                <li><br></br>
+                <li>
+                    <br></br>
                     <details>
                     <summary>How can I buy something on the HZ web shop?</summary><p></p>
                     </details>
                 </li>
-                <li><br></br>
+                <li>
+                    <br></br>
                     <details>
                     <summary>How can you book a project space?</summary><p>Step 1! - Go to your HZ Portal!
                         Step 2! - Go to the self service
@@ -236,19 +93,20 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 4! - Choose the correct category and search for the "recource" you want to reserve.</p>
                     </details>
                 </li>
-                <li><br></br>
+                <li>
+                    <br></br>
                     <details>
                     <summary>What are the instructions if you want to park your car at the HZ parking lot?</summary><p></p>
                     </details>
                 </li>
-                
             </ul>
         </div>
 
-        <hr style="width: 45%; margin-left: 385px;">
-        </hr><br></br><br></br>
+        <hr style="width: 45%; margin-left: 385px;"></hr>
+        <br></br><br></br>
  
         
+        <!--ASIDE/NAVIGATION BAR ETC.-->
         <aside>
             <div class="sidenavleft">
                 <a href="index.html">Home</a>
@@ -269,104 +127,36 @@
     
             <div class="sidenavright">
                 <a style=" margin-bottom: auto; display: contents;"
-                href="https://hz.nl" target="_blank">
-                <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img></a>
+                    href="https://hz.nl" target="_blank">
+                    <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img>
+                </a>
                 <br></br>
                 <h4 style="font-size: 120%; width: 90%; margin: auto; text-align: center; color: #c5c5c9;">Müçteba Mecit Gönül PCO Website</h4>
                 <hr style="width: 70%;"></hr>
                 <h4 style="font-size: 130%; width: 70%; margin: auto; text-align: center; color: #c5c5c9;">Made with HTML + CSS</h4>
                 <br></br>
                 <center>
-                <button class="lightmode" style="font-weight: bold; font-size: 120%;
-                color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
-                <br></br><br></br><br></br><br></br></center>
+                    <button class="lightmode" style="font-weight: bold; font-size: 120%;
+                    color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
+                    <br></br><br></br><br></br><br></br>
+                </center>
                 <center>
-                <a style=" margin-bottom: auto; display: contents;"
-                 href="https://github.com/mmecitgonul" target="_blank">
-                <img class="gitpic" style="width: 50%; opacity: 0.7" src="res/gitpic.png">
-                </img></a><hr style="width: 70%;"></hr>
+                    <a style=" margin-bottom: auto; display: contents;"
+                      href="https://github.com/mmecitgonul" target="_blank">
+                      <img class="gitpic" style="width: 50%; opacity: 0.7" src="res/gitpic.png"></img>
+                    </a>
+                    <hr style="width: 70%;"></hr>
                 </center>
             </div>
         </aside>
 
 
+        <!--Toogle Dark-mode Script-->
+        <script>
+            function myFunction(){
+              var element = document.body;
+              element.classList.toggle("dark-mode");
+            }
+        </script>
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>

@@ -1,230 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
+
     <head>
-        <!--Meta/Title-->
+        <!--CSS link/Meta/Title-->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
         <title>Mecit Blog</title>
-
-        
-        
-        <Style>
-
-        body{
-            overflow-x: hidden;
-            background-color:rgba(207, 228, 228, 0.534);
-            background-image: url(res/backgroundgif.gif);
-            background-size:cover;
-        }
-
-        .square-medium{
-            height: 100px;
-            width: 220px;
-            background-color: rgb(203, 204, 204);
-            margin: auto;
-            transition: width 1s;
-        }
-
-        .sidenavleft {
-            height: 100%;
-            width: 235px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 10px;
-            box-shadow: 2px 2px #c5c5c998;
-            transition: width 2s;
-        }
-
-        .sidenavright {
-            height: 100%;
-            width: 215px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            right: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 20px;
-            box-shadow: -2px -2px #c5c5c998;
-            transition: width 2s;
-        }
-
-        .sidenavright:hover {
-        width: 300px;
-        }
-        .sidenavleft:hover {
-        width: 300px;
-        }
-
-        .sidenavleft a {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            
-        }
-
-        .sidenavright a  {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-        }
-
-        .sidenavleft a:hover {
-            color: #662c2c;
-            zoom: 120%;
-        }
-        .sidenavright a:hover {
-            color: #f1f1f1;
-        }
-
-        .profiletext{
-            font-size: 100%;
-            text-align: center;
-        }
-
-        .profileul{
-            font-size: 120%;
-            transform: translate(1%, -7%);
-        }
-
-        h1{
-            font-size: 150%;
-            text-align: center;
-            transform: translate(0%, -7%);
-        }
-
-        a{
-            text-decoration: none;
-            color: black;
-        }
-
-        .square-medium:hover{
-            width: 208px;
-            opacity: 0.7;
-            box-shadow: 0px 5px 5px 0px rgb(39, 36, 36) inset;
-        }
-
-        .dark-mode {
-            background-image: url(res/backgroundgiflight.gif) !important;
-
-            .sidenavleft, .sidenavright{
-                background-color: rgba(255, 255, 255, 0.925);
-            }
-            .sidenavright a, .sidenavleft a, .sidenavright ul, h4, h2, h1{
-                color: #000000 !important;
-                
-            }
-        }
-
-        .lightmode:hover{
-            opacity: 0.5;
-        }
-
-        .gitpic:hover{
-            opacity: 0.3 !important;
-        }
-
-        </Style>
     </head>
+
+
     <body>
+        <!--BLOG LINE 1.-->
+        <div class="div_blog" style="z-index: 10; transform: translate(-20%, -38%);">   
 
-        <script>
-            function myFunction() {
-               var element = document.body;
-               element.classList.toggle("dark-mode");
-            }
-        </script>
+            <a href="blogs/blog6.html" style="transform: translate(271%, 50%);
+            background-color: #6e9442;" class="square_blog">
+                <h1>Profession<hr></hr>(08/09/2024)</h1>
+            </a>  
 
+            <a href="blogs/blog1.html" style="transform: translate(208.5%, 157.7%);
+            background-color: #a09a9a;" class="square_blog"> 
+                <h1>Personal SWOT<hr></hr>(06/09/2024)</h1>
+            </a>
 
-        <div style="display: inline-flex; z-index: 10;">   
-            <div style="transform: translate(-20%, -38%); display: inline-flex; ">
-                <a href="blogs/blog6.html" style="transform: translate(271%, 50%); background-color: #6e9442;" class="square-medium">
-                    <h1>Profession<hr></hr>(08/09/2024)</h1></a>  
+            <empty style="transform: translate(-0%, 10000000%);" class="square_blog">!!!</empty> 
 
-                <a href="blogs/blog1.html" style="transform: translate(208.5%, 157.7%); background-color: #a09a9a;" class="square-medium"> 
-                <h1>Personal SWOT<hr></hr>(06/09/2024)</h1></a>
+            <a href="blogs/blog3.html" style="transform: translate(188%, 50%);
+                background-color: #344b52;" class="square_blog">
+                <h1>First Feedback<hr></hr>(06/09/2024)</h1>
+            </a>  
 
-                <a style="transform: translate(-310.3%, 181.3%); background-color: #662c2c;" class="square-medium">     
-                <h1></h1><p class="profiletext">DONT TOUCH THIS TEXT</p></a> 
+            <a href="blogs/blog4.html" style="transform: translate(-20.2%, 50%);
+                z-index: 1; background-color: #c0938e;" class="square_blog">
+                <h1>ICT Field<hr></hr>(06/09/2024)</h1>
+            </a>
 
-                <a href="blogs/blog3.html" style="transform: translate(188%, 50%); background-color: #344b52;" class="square-medium">
-                <h1>First Feedback<hr></hr>(06/09/2024)</h1></a>  
+            <a href="blogs/blog5.html" style="transform: translate(30.5%, 157.7%);
+                background-color: #85862e;" class="square_blog"> 
+                <h1>Programming Exp.<hr></hr>(06/09/2024)</h1>
+            </a>
 
-                <a href="blogs/blog4.html" style="transform: translate(-20.2%, 50%); z-index: 1; background-color: #c0938e;" class="square-medium">
-                <h1>ICT Field<hr></hr>(06/09/2024)</h1></a>
-
-                <a href="blogs/blog5.html" style="transform: translate(30.5%, 157.7%); background-color: #85862e;" class="square-medium"> 
-                <h1>Programming Exp.<hr></hr>(06/09/2024)</h1></a>
-
-                <a href="blogs/blog2.html" style="transform: translate(-180.3%, 157.3%); background-color: #662c2c;" class="square-medium">     
-                <h1>Teachers<hr></hr>(06/09/2024)</h1></a> 
-            </div>    
+            <a href="blogs/blog2.html" style="transform: translate(-180.3%, 157.3%);
+                background-color: #662c2c;" class="square_blog">     
+                <h1>Teachers<hr></hr>(06/09/2024)</h1>
+            </a>    
         </div>
 
-        <div style="display: inline-flex;">   
-            <div style="transform: translate(-20%, 85%); display: inline-flex;">
-                <a href="blogs/blog0.html" style=" transform: translate(271%, 50%); background-color: #972a2ad2;" class="square-medium">
-                    <h1>Study Choice<hr></hr>(06/09/2024)</h1></a>  
+        <!--BLOG LINE 2.-->
+        <div class="div_blog" style="transform: translate(-20%, 85%);">
+            <a href="blogs/blog0.html" style=" transform: translate(271%, 50%);
+                background-color: #972a2ad2;" class="square_blog">
+                <h1>Study Choice<hr></hr>(06/09/2024)</h1>
+            </a>  
 
-                <div href="" style="transform: translate(208.5%, 157.7%); background-color: #3f3e3e3b;" class="square-medium"> 
-                <h1></h1></div>
+            <div href="" style="transform: translate(208.5%, 157.7%);
+                background-color: #3f3e3e3b;" class="square_blog"> 
+                <h1></h1>
+            </div>
 
-                <div style="transform: translate(-310.3%, 181.3%); background-color: #3f3e3e3b;" class="square-medium">     
-                <h1></h1><p class="profiletext">DONT TOUCH THIS TEXT</p></div> 
+            <empty style="transform: translate(0%, 1000000%);" class="square_blog">!!!</empty> 
 
-                <div href="" style="transform: translate(188%, 50%); background-color: #3f3e3e3b;" class="square-medium">
-                <h1></h1></div>  
+            <div href="" style="transform: translate(188%, 50%);
+                background-color: #3f3e3e3b;" class="square_blog">
+                <h1></h1>
+            </div>  
 
-                <div href="" style="transform: translate(-20.2%, 50%); z-index: 1; background-color: #3f3e3e3b;" class="square-medium">
-                <h1></h1></div>
+            <div href="" style="transform: translate(-20.2%, 50%);
+                background-color: #3f3e3e3b;" class="square_blog">
+                <h1></h1>
+            </div>
 
-                <div href="" style="transform: translate(30.5%, 157.7%); background-color: #3f3e3e3b;" class="square-medium"> 
-                <h1></h1></div>
+            <div href="" style="transform: translate(30.5%, 157.7%);
+                background-color: #3f3e3e3b;" class="square_blog"> 
+                <h1></h1>
+            </div>
 
-                <div href="" style="transform: translate(-180.3%, 157.3%); background-color: #3f3e3e3b;" class="square-medium">     
-                <h1></h1></div> 
-            </div>    
-        </div>
-        
+            <div href="" style="transform: translate(-180.3%, 157.3%);
+                background-color: #3f3e3e3b;" class="square_blog">     
+                <h1></h1>
+            </div> 
+        </div>    
 
-        <div style="display: inline-flex;">   
-            <div style="transform: translate(-20%, 205%); display: inline-flex;">
-                <div href="" style="transform: translate(271%, 50%); background-color: #3f3e3e3b;" class="square-medium">
-                    <h1></h1></div>  
+        <!--BLOG LINE 3.-->
+        <div class="div_blog" style="transform: translate(-20%, 205%);">
+            <div href="" style="transform: translate(271%, 50%);
+                background-color: #3f3e3e3b;" class="square_blog">
+                <h1></h1>
+            </div>  
 
-                <div href="" style="transform: translate(208.5%, 157.7%); background-color: #3f3e3e3b;" class="square-medium"> 
-                <h1></h1></div>
+            <div href="" style="transform: translate(208.5%, 157.7%);
+                background-color: #3f3e3e3b;" class="square_blog"> 
+                <h1></h1>
+            </div>
 
-                <div style="transform: translate(-310.3%, 181.3%); background-color: #3f3e3e3b;" class="square-medium">     
-                <h1></h1><p class="profiletext">DONT TOUCH THIS TEXT</p></div> 
+            <empty style="transform: translate(0%, 1000000%);" class="square_blog"></empty> 
 
-                <div href="" style="transform: translate(188%, 50%); background-color: #3f3e3e3b;" class="square-medium">
-                <h1></h1></div>  
+            <div href="" style="transform: translate(188%, 50%);
+                background-color: #3f3e3e3b;" class="square_blog">
+                <h1></h1>
+            </div>  
 
-                <div href="" style="transform: translate(-20.2%, 50%); z-index: 1; background-color: #3f3e3e3b;" class="square-medium">
-                <h1></h1></div>
+            <div href="" style="transform: translate(-20.2%, 50%);
+                background-color: #3f3e3e3b;" class="square_blog">
+                <h1></h1>
+            </div>
 
-                <div href="" style="transform: translate(30.5%, 157.7%); background-color: #3f3e3e3b;" class="square-medium"> 
-                <h1></h1></div>
+            <div href="" style="transform: translate(30.5%, 157.7%);
+                background-color: #3f3e3e3b;" class="square_blog"> 
+                <h1></h1>
+            </div>
 
-                <div href="" style="transform: translate(-180.3%, 157.3%); background-color: #3f3e3e3b;" class="square-medium">     
-                <h1></h1></div> 
-            </div>    
-        </div>
- 
- 
-        
-        <aside>
+            <div href="" style="transform: translate(-180.3%, 157.3%);
+                background-color: #3f3e3e3b;" class="square_blog">     
+                <h1></h1>
+            </div> 
+        </div>    
+
+
+        <!--ASIDE/NAVIGATION BAR ETC.-->
+          <aside>
             <div class="sidenavleft">
                 <a href="index.html">Home</a>
                 <a href="profile.html">Profile</a>
@@ -244,104 +141,36 @@
     
             <div class="sidenavright">
                 <a style=" margin-bottom: auto; display: contents;"
-                href="https://hz.nl" target="_blank">
-                <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img></a>
+                    href="https://hz.nl" target="_blank">
+                    <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img>
+                </a>
                 <br></br>
                 <h4 style="font-size: 120%; width: 90%; margin: auto; text-align: center; color: #c5c5c9;">Müçteba Mecit Gönül PCO Website</h4>
                 <hr style="width: 70%;"></hr>
                 <h4 style="font-size: 130%; width: 70%; margin: auto; text-align: center; color: #c5c5c9;">Made with HTML + CSS</h4>
                 <br></br>
                 <center>
-                <button class="lightmode" style="font-weight: bold; font-size: 120%;
-                color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
-                <br></br><br></br><br></br><br></br></center>
+                    <button class="lightmode" style="font-weight: bold; font-size: 120%;
+                    color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
+                    <br></br><br></br><br></br><br></br>
+                </center>
                 <center>
-                <a style=" margin-bottom: auto; display: contents;"
-                 href="https://github.com/mmecitgonul" target="_blank">
-                <img class="gitpic" style="width: 50%; opacity: 0.7" src="res/gitpic.png">
-                </img></a><hr style="width: 70%;"></hr>
+                    <a style=" margin-bottom: auto; display: contents;"
+                      href="https://github.com/mmecitgonul" target="_blank">
+                      <img class="gitpic" style="width: 50%; opacity: 0.7" src="res/gitpic.png"></img>
+                    </a>
+                    <hr style="width: 70%;"></hr>
                 </center>
             </div>
         </aside>
 
 
+        <!--Toogle Dark-mode Script-->
+        <script>
+            function myFunction(){
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+        </script>
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>

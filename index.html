@@ -2,243 +2,89 @@
 <html lang="en">
     
     <head>
-        <!--Meta/Title-->
+        <!--CSS link/Meta/Title-->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
         <title>Mecit Home</title>
-
-        
-        
-        <Style>
-
-        body{
-            overflow-x: hidden;
-            background-image: url(res/backgroundgif.gif);
-            background-size:cover;
-        }
-
-        .triangle-down{
-        	width: 0;
-        	height: 0;
-        	border-left: 450px solid transparent;
-        	border-right: 450px solid transparent;
-        	border-top: 450px solid #000000a1;
-            margin: auto;
-        }   
-
-        .triangle-up {
-        	width: 0;
-        	height: 0;
-        	border-left: 407px solid transparent;
-        	border-right: 407px solid transparent;
-        	border-bottom: 407px solid #000000a1;
-            margin: auto;
-        }
-
-        .square{
-            height: 190px;
-            width: 190px;
-            background-color: #9c6a3e;
-            rotate: 45deg;
-            margin: auto;
-            transition: 1s;
-        }
-
-        .square-big{
-            height: 380px;
-            width: 380px;
-            background-color: #000000;
-            box-shadow: 5px 5px 5px 5px #395351;
-            rotate: 45deg;
-            margin: auto;
-        }
-
-        .sidenavleft {
-            height: 100%;
-            width: 235px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 10px;
-            box-shadow: 2px 2px #c5c5c998;
-            transition: width 2s;
-        }
-
-        .sidenavright {
-            height: 100%;
-            width: 215px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            right: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 20px;
-            box-shadow: -2px -2px #c5c5c998;
-            transition: width 2s;
-        }
-
-        .sidenavright:hover {
-        width: 300px;
-        }
-        .sidenavleft:hover {
-        width: 300px;
-        }
-
-        .sidenavleft a {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-        }
-
-        .sidenavright ul {
-            padding: 6px 8px 6px 16px;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            transform: translate(10%, 0%);
-            list-style-type: upper-roman;
-        }
-        .sidenavright a  {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            
-        }
-
-        .sidenavleft a:hover {
-            color: #662c2c;
-            zoom: 120%;
-        }
-        .sidenavright a:hover {
-            color: #f1f1f1;
-        }
-
-        .square:hover{
-            opacity: 0.6;
-            box-shadow: 10px 10px 20px 5px #14110f;
-        }
-
-        .squarelink{
-            background-color: aliceblue;
-        }
-
-        .squareimage{
-            width: 90%;
-        }
-
-        a{
-            font-size: 50%;
-            text-decoration: none;
-            color: black;
-        }
-
-        .divpic{
-           font-family: Cambria;
-           transition: opacity 0.5s;
-        }
-
-        .divpic:hover{
-            opacity: 0;
-        }
-
-        .dark-mode {
-            background-image: url(res/backgroundgiflight.gif) !important;
-
-            .sidenavleft, .sidenavright{
-                background-color: rgba(255, 255, 255, 0.925);
-            }
-            .sidenavright a, .sidenavleft a, .sidenavright ul, h4, h2, h1{
-                color: #000000 !important;
-            }
-            h3{
-                color: #000000 !important;
-                margin-top: 55px;
-            }
-            .triangle-up{
-                border-bottom: #eeeeee ;
-            }
-            .triangle-down{
-                border-top: #ffffff;
-                
-            }
-        }
-
-        .lightmode:hover{
-            opacity: 0.5;
-        }
-
-        .gitpic:hover{
-            opacity: 0.3 !important;
-        }
-
-        </Style>
     </head>
+
+
     <body>
-        
-        <script>
-            function myFunction() {
-               var element = document.body;
-               element.classList.toggle("dark-mode");
-            }
-        </script>
-        
-        
+        <!--Middle Blocks and Content-->
         <div style="display: inline-flex;">   
-            
-            
-            
-            
             <div style="transform: translate(25.1%, -1.7%);" class="triangle-down"></div>
 
             <div style="transform: translate(-73.5%, 18%); display: inline-flex; z-index: 1;">
                 <a style="font-weight: bold; font-size: 230%; background-color: #e0db8d;
-                transform: translate(241%, 59%);" href="extras.html" class="square">Extras</a>
-                <a style="font-weight: bold; font-size: 230%; background-color: rgb(156, 81, 51);
-                transform: translate(270%, 30%);" href="profile.html" class="square">Profile</a>
-                <a style="font-weight: bold; font-size: 230%; background-color: rgb(50, 51, 73);
-                transform: translate(0%, 100.5%);" href="dashboard.html" class="square">Dashboard</a>
-                <a style="font-weight: bold; font-size: 230%; background-color: rgb(209, 226, 226);
-                transform: translate(29%, 171.5%);" href="faq.html" class="square">FAQ</a>
-                <a style="font-weight: bold; font-size: 230%; background-color:rgb(126, 40, 57);
-                transform: translate(-41.5%, 142.5%);" href="blog.html"
-                class="square"><img src="" class="squareimage"></img>Blog</a>
-            </div>
+                    transform: translate(241%, 59%);" href="extras.html" class="square">Extras
+                </a>
 
-            
+                <a style="font-weight: bold; font-size: 230%; background-color: rgb(156, 81, 51);
+                    transform: translate(270%, 30%);" href="profile.html" class="square">Profile
+                </a>
+
+                <a style="font-weight: bold; font-size: 230%; background-color: rgb(50, 51, 73);
+                    transform: translate(0%, 100.5%);" href="dashboard.html" class="square">Dashboard
+                </a>
+
+                <a style="font-weight: bold; font-size: 230%; background-color: rgb(209, 226, 226);
+                    transform: translate(29%, 171.5%);" href="faq.html" class="square">FAQ
+                </a>
+
+                <a style="font-weight: bold; font-size: 230%; background-color:rgb(126, 40, 57);
+                    transform: translate(-41.5%, 142.5%);" href="blog.html"class="square">Blog
+                </a>
+            </div>
 
             <div style="transform: translate(-73.5%, 18%); display: inline-flex; ">
                 <div style="transform: translate(-19%, 69%);" class="square-big">
-                <img style="width: 100%; height: 100%;" src="res/pic5.jpg" class="squareimage"></img></div>  
+                    <img style="width: 100%; height: 100%;" src="res/pic5.jpg" class="squareimage"></img>
+                </div>  
 
                 <div style="transform: translate(10.2%, 40%);" class="square-big"> 
-                <img style="width: 100%; height: 100%;" src="res/pic4.jpg" class="squareimage"></img></div>
+                    <img style="width: 100%; height: 100%;" src="res/pic4.jpg" class="squareimage"></img>
+                </div>
 
                 <div style="opacity: 0; transform: translate(-60.5%, 210.7%);" class="square-big">
-                <img style="width: 100%; height: 100%;" src="" class="squareimage"></img></div>
+                    <img style="width: 100%; height: 100%;" src="" class="squareimage"></img>
+                </div>
 
                 <div style="transform: translate(-31.3%, 231%);" class="square-big">                    
-                <img style="width: 100%; height: 100%;" src="res/pic1.jpg" class="squareimage"></img></div> 
+                    <img style="width: 100%; height: 100%;" src="res/pic1.jpg" class="squareimage"></img>
+                </div> 
                    
                 <div style="transform: translate(-252.1%, 451.7%);" class="square-big"> 
-                <img style="width: 100%; height: 100%;" src="res/pic2.jpg" class="squareimage"></img></div>
-                
+                    <img style="width: 100%; height: 100%;" src="res/pic2.jpg" class="squareimage"></img>
+                </div>    
             </div>    
-            
-            <div style= "transform: translate(-427.7%, 168.5%);" class="triangle-up"></div>
 
-            
-            
+            <div style= "transform: translate(-427.7%, 168.5%);" class="triangle-up"></div>
         </div>    
 
+        
+        <!--TOP AND BOTTOM CONTENTS-->
+        <div style="display: flex;"></div>
+            <h3 style="display: flex; color: aliceblue; transform: translate(32%, -850%);
+                font-size: 150%;">"Not because I want it but because I&nbsp; 
+                <span style="font-family:Franklin Gothic Medium; transform: translate(0%, -29%);
+                font-size: 40px; color: brown">NEED</span> &nbsp;it"
+            </h3>
+        </div>
+
+        <div style="z-index: 2; transform: translate(0%, -38%);">
+            <img style=" transform: translate(287%, 170%); width: 15%;" src="res/mepic5.png"></img>
+            <img class="divpic" style="transform: translate(185%, 170%); width: 15%;" src="res/mepic4.png">
+
+            <img style="transform: translate(1%, -1050%); width: 40%;" src="res/linepic.png">
+            <h2 style="color: aliceblue; transform: translate(33%, 580%);
+            position: relative; font-size: 300%;">-Müçteba Mecit Gönül</h2>
+            </img>
+        </div>
+
+
+        <!--ASIDE/NAVIGATION BAR ETC.-->
         <aside>
             <div class="sidenavleft">
                 <a href="index.html">Home</a>
@@ -254,126 +100,40 @@
                 <a style="font-size: 100%;" href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank">Regulations HBO-ICT</a>
                 <hr></hr>
                 <a style="color: rgb(119, 60, 65);" href="index.html">- Home</a>
-
-                
-                
             </div>
-
-            
     
             <div class="sidenavright">
                 <a style=" margin-bottom: auto; display: contents;"
-                href="https://hz.nl" target="_blank">
-                <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img></a>
+                    href="https://hz.nl" target="_blank">
+                    <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img>
+                </a>
                 <br></br>
                 <h4 style="font-size: 120%; width: 90%; margin: auto; text-align: center; color: #c5c5c9;">Müçteba Mecit Gönül PCO Website</h4>
                 <hr style="width: 70%;"></hr>
                 <h4 style="font-size: 130%; width: 70%; margin: auto; text-align: center; color: #c5c5c9;">Made with HTML + CSS</h4>
                 <br></br>
                 <center>
-                <button class="lightmode" style="font-weight: bold; font-size: 120%;
-                color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
-                <br></br><br></br><br></br><br></br></center>
+                    <button class="lightmode" style="font-weight: bold; font-size: 120%;
+                    color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
+                    <br></br><br></br><br></br><br></br>
+                </center>
                 <center>
-                <a style=" margin-bottom: auto; display: contents;"
-                 href="https://github.com/mmecitgonul" target="_blank">
-                <img class="gitpic" style="width: 50%; opacity: 0.4" src="res/gitpic.png">
-                </img></a><hr style="width: 70%;"></hr>
+                    <a style=" margin-bottom: auto; display: contents;"
+                      href="https://github.com/mmecitgonul" target="_blank">
+                      <img class="gitpic" style="width: 50%; opacity: 0.7" src="res/gitpic.png"></img>
+                    </a>
+                    <hr style="width: 70%;"></hr>
                 </center>
             </div>
-            
         </aside>
 
-        <div style="display: flex;">
-            <h3 style="display: flex; color: aliceblue; transform: translate(84.5%, -850%); font-size: 150%;">"Not because I want it but because I&nbsp; <span style="font-family:Franklin Gothic Medium; transform: translate(0%, -29%); font-size: 40px; color: brown">NEED</span> &nbsp;it"</h3>
-        </div>
 
-        <div style="z-index: 2; transform: translate(0%, -38%);">
-            
-            <img style=" transform: translate(287%, 170%); width: 15%;" src="res/mepic5.png"></img>
-            <img class="divpic" style="transform: translate(185%, 170%); width: 15%;" src="res/mepic4.png">
-            <img style="transform: translate(1%, -1050%); width: 40%;" src="res/linepic.png">
-            <h2 style="color: aliceblue; transform: translate(33%, 580%); position: relative; font-size: 300%;">-Müçteba Mecit Gönül</h2></img>
-            
-        </div>
-
+        <!--Toogle Dark-mode Script-->
+        <script>
+            function myFunction(){
+              var element = document.body;
+              element.classList.toggle("dark-mode");
+            }
+        </script>
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>

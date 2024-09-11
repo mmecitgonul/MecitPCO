@@ -3,145 +3,48 @@
     
     <head>
         <!--Meta/Title-->
+        <!--CSS link/Meta/Title-->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles.css">
         <title>Profession</title>
-
-
-        
-        
-        
-        <Style>
-
-        body{
-            overflow-x: hidden;
-            background-image: url(../res/backgroundgif.gif);
-            background-size:cover;
-        }
-
-        .sidenavleft {
-            height: 100%;
-            width: 235px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 10px;
-            box-shadow: 2px 2px #c5c5c998;
-            transition: width 2s;
-        }
-
-        .sidenavright {
-            height: 100%;
-            width: 215px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            right: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 20px;
-            box-shadow: -2px -2px #c5c5c998;
-            transition: width 2s;
-        }
-
-        .sidenavright:hover {
-        width: 300px;
-        }
-        .sidenavleft:hover {
-        width: 300px;
-        }
-
-        .sidenavleft a {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            
-        }
-
-        .sidenavright a  {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-        }
-
-        .sidenavleft a:hover {
-            color: #662c2c;
-            zoom: 120%;
-        }
-        .sidenavright a:hover {
-            color: #f1f1f1;
-        }
-
-        .dark-mode {
-            background-image: url(../res/backgroundgiflight.gif) !important;
-
-            .sidenavleft, .sidenavright{
-                background-color: rgba(255, 255, 255, 0.925);
-            }
-            .sidenavright a, .sidenavleft a, .sidenavright ul, h4, h2, h1, p{
-                color: #000000 !important;
-                
-            }
-        }
-
-        .lightmode:hover{
-            opacity: 0.5;
-        }
-
-        .gitpic:hover{
-            opacity: 0.3 !important;
-        }
-
-
-        </Style>
-
     </head>
 
 
     <body>
-
-        <script>
-            function myFunction() {
-               var element = document.body;
-               element.classList.toggle("dark-mode");
-            }
-        </script>
- 
-        <div style=" height: 8000%; width: 50%; display: table; transform: translate(0%, 2%);
-            margin: auto; background-color: #662c2cc2; padding: 15px;">
+        <!--BLOG-->
+        <div style=" height: 8000%; width: 50%; display: table; transform: translate(0%, 2%);margin: auto; background-color: #662c2cc2; padding: 15px;">
             <h1 style="font-weight: bold; color: rgb(255, 239, 239); font-size: 200%; text-align: center;">Profession</h1>
-            <hr></hr><p style="color:beige; text-align: center; font-size: 120%;"
+            <hr></hr>
+            <p style="color:beige; text-align: center; font-size: 120%;"
             >My ideal IT workplace is one that is small and flexible, one where I can focus completely on the project
             and its eventual worth. I believe that such a workplace is very difficult to find, especially in Netherlands,
             Nevertheless, Here are 3 companies that have piqued my interest, they are: Sever, Finitude, and Lost relic games.</p>
+            
             <p style="color:beige; text-align: center; font-size: 120%;"
             >Since both of these companies are videogame related, the job positions will gravitate towards either specific
             roles such as tester, narrative designer, programmer, visual artist etc., or it will be a combination of roles that
             will converge on it just being a "Developer", a developer would just do all the specific things I mentioned.
             </p>
+
             <br></br>
+
             <div style="display: flex;">
-            <img style="width: 30%;" src="../res/severpic.webp"></img>
-            <ul style="color:rgb(214, 213, 213);  font-size: 130%;">
-                <li>Name: Sever Studio</li>
-                <li>Type: Indie GameDev Studio</li>
-                <li>Projects: Videogames</li>
-                <li>Size: 10-20</li>
-                <li>HQ: Tomsk-Russia</li>
-                <li>Culture: "professional small studio"</li>
-                <li>International: No</li>
-                <li>Technology: Game engines, IDEs, etc. </li>
-                <li>Roles: Project manager, Tester, Designer, etc. </li>
-            </ul>
+                <img style="width: 30%;" src="../res/severpic.webp"></img>
+                <ul style="color:rgb(214, 213, 213);  font-size: 130%;">
+                    <li>Name: Sever Studio</li>
+                    <li>Type: Indie GameDev Studio</li>
+                    <li>Projects: Videogames</li>
+                    <li>Size: 10-20</li>
+                    <li>HQ: Tomsk-Russia</li>
+                    <li>Culture: "professional small studio"</li>
+                    <li>International: No</li>
+                    <li>Technology: Game engines, IDEs, etc. </li>
+                    <li>Roles: Project manager, Tester, Designer, etc. </li>
+                </ul>
             </div>
+
             <p style="color:beige; text-align: center; font-size: 120%;"
             >Studio sever mainly develops indie and educational videogames, based in Tomsk-Russia, the roles of the workers
             are specific, things like project manager, tester or sound desginer, 2D artist etc. they mainly use the Unity game engine for
@@ -154,20 +57,19 @@
             </p>
 
             <div style="display: flex;">
-            <img style=" width: 30%;" src="../res/finitudepic.png"></img>
-            <ul style="color:rgb(214, 213, 213);  font-size: 130%;">
-                <li>Name: Finitude</li>
-                <li>Type: Indie GameDev Studio</li>
-                <li>Projects: Videogames</li>
-                <li>Size: 2</li>
-                <li>HQ: Maastricht-Berlin</li>
-                <li>Culture: Self sustained</li>
-                <li>International: Yes?</li>
-                <li>Technology: Game engines, IDEs, etc. </li>
-                <li>Roles: Developer.</li>
-            </ul>
+                <img style=" width: 30%;" src="../res/finitudepic.png"></img>
+                <ul style="color:rgb(214, 213, 213);  font-size: 130%;">
+                    <li>Name: Finitude</li>
+                    <li>Type: Indie GameDev Studio</li>
+                    <li>Projects: Videogames</li>
+                    <li>Size: 2</li>
+                    <li>HQ: Maastricht-Berlin</li>
+                    <li>Culture: Self sustained</li>
+                    <li>International: Yes?</li>
+                    <li>Technology: Game engines, IDEs, etc. </li>
+                    <li>Roles: Developer.</li>
+                </ul>
             </div>
-
             
             <p style="color:beige; text-align: center; font-size: 120%;"
             >Finitude is a 2 man indie studio based in Maastricht and Berlin, the job roles are mainly whole, meaning 
@@ -182,7 +84,7 @@
             </p>
 
             <div style="display: flex;">
-            <img style=" width: 30%; margin-top: 15px;" src="../res/lostrelicpic.png"></img>
+                <img style=" width: 30%; margin-top: 15px;" src="../res/lostrelicpic.png"></img>
                 <ul style="color:rgb(214, 213, 213);  font-size: 130%;">
                     <li>Name: Lost Relic Games</li>
                     <li>Type: Indie GameDev Studio</li>
@@ -196,10 +98,6 @@
                 </ul>
             </div>
 
-            
-            
-            
-            
             <p style="color:beige; text-align: center; font-size: 120%;"
             >Lost relic games is a single person indie dev studio based in Australia, the job roles much like Finitude are not specific,
             instead requiring a combined expertise of being a whole indie developer, the work is done individually at a home studio. 
@@ -217,12 +115,10 @@
             >What these companies/Studios have in common is being small, flexible and possesing an art orianted mindset.
             They would like to craft something that will hold worth, and for that, I couldn't ask for more.
             </p>
-            
         </div>
 
 
-
-        
+        <!--ASIDE/NAVIGATION BAR ETC.-->
         <aside>
             <div class="sidenavleft">
                 <a href="../index.html">Home</a>
@@ -238,111 +134,42 @@
                 <a style="font-size: 100%;" href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank">Regulations HBO-ICT</a>
                 <hr></hr>
                 <a style="color: #818181;" href="../index.html">- Home</a>
-                <a style="transform: translate(5%, 0%); color: #818181;"
-                 href="../blog.html">-- Blog</a>
-                 <a style="transform: translate(10%, 0%); color: rgb(119, 60, 65);"
-                 href="">--- Profession</a>
+                <a style="transform: translate(5%, 0%); color: #818181;" href="../blog.html">-- Blog</a>
+                <a style="font-size: 130%; transform: translate(9%, 0%); color: rgb(119, 60, 65);" href="">--- Profession</a>
             </div>
+    
             <div class="sidenavright">
                 <a style=" margin-bottom: auto; display: contents;"
-                href="https://hz.nl" target="_blank">
-                <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="../res/hzbanner.png"></img></a>
+                    href="https://hz.nl" target="_blank">
+                    <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="../res/hzbanner.png"></img>
+                </a>
                 <br></br>
                 <h4 style="font-size: 120%; width: 90%; margin: auto; text-align: center; color: #c5c5c9;">Müçteba Mecit Gönül PCO Website</h4>
                 <hr style="width: 70%;"></hr>
                 <h4 style="font-size: 130%; width: 70%; margin: auto; text-align: center; color: #c5c5c9;">Made with HTML + CSS</h4>
                 <br></br>
                 <center>
-                <button class="lightmode" style="font-weight: bold; font-size: 120%;
-                color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
-                <br></br><br></br><br></br><br></br></center>
+                    <button class="lightmode" style="font-weight: bold; font-size: 120%;
+                    color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
+                    <br></br><br></br><br></br><br></br>
+                </center>
                 <center>
-                <a style=" margin-bottom: auto; display: contents;"
-                 href="https://github.com/mmecitgonul" target="_blank">
-                <img class="gitpic" style="width: 50%; opacity: 0.7" src="../res/gitpic.png">
-                </img></a><hr style="width: 70%;"></hr>
+                    <a style=" margin-bottom: auto; display: contents;"
+                      href="https://github.com/mmecitgonul" target="_blank">
+                      <img class="gitpic" style="width: 50%; opacity: 0.7" src="../res/gitpic.png"></img>
+                    </a>
+                    <hr style="width: 70%;"></hr>
                 </center>
             </div>
         </aside>
 
 
+        <!--Toogle Dark-mode Script-->
+        <script>
+            function myFunction(){
+              var element = document.body;
+              element.classList.toggle("dark-mode");
+            }
+        </script>
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>

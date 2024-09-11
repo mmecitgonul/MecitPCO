@@ -2,218 +2,66 @@
 <html lang="en">
     
     <head>
-        <!--Meta/Title-->
+        <!--CSS link/Meta/Title-->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
         <title>Mecit Profile</title>
-
-        
-        
-        <Style>
-
-        body{
-            overflow-x: hidden;
-            background-color:rgba(207, 228, 228, 0.534);
-            background-image: url(res/backgroundgif.gif);
-            background-size:cover;
-        }
-
-        .square-medium{
-            height: 220px;
-            width: 220px;
-            background-color: rgb(203, 204, 204);
-            transition: 2s;
-        }
-
-        .sidenavleft {
-            height: 100%;
-            width: 235px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 10px;
-            box-shadow: 2px 2px #c5c5c998;
-            transition: width 2s;
-        }
-
-        .sidenavright {
-            height: 100%;
-            width: 215px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            right: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 20px;
-            box-shadow: -2px -2px #c5c5c998;
-            transition: width 2s;
-        }
-
-        .sidenavright:hover {
-        width: 300px;
-        }
-        .sidenavleft:hover {
-        width: 300px;
-        }
-
-        .sidenavleft a {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-            
-        }
-
-        .sidenavright a  {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #818181;
-            display: block;
-        }
-
-        .sidenavleft a:hover {
-            color: #662c2c;
-            zoom: 120%;
-        }
-        .sidenavright a:hover {
-            color: #f1f1f1;
-        }
-
-        .squarelink{
-            background-color: aliceblue;
-        }
-
-        .squareimage{
-            width: 90%;
-        }
-
-        h1{
-            font-size: 150%;
-        }
-
-        .profiletext{
-            font-size: 100%;
-            text-align: center;
-        }
-
-        .profileul{
-            font-size: 120%;
-        }
-
-       
-        .dark-mode {
-            background-image: url(res/backgroundgiflight.gif) !important;
-
-            .sidenavleft, .sidenavright{
-                background-color: rgba(255, 255, 255, 0.925);
-            }
-            .sidenavright a, .sidenavleft a, .sidenavright ul, h4, h2, h1{
-                color: #000000 !important;
-                
-            }
-        }
-
-        .lightmode:hover{
-            opacity: 0.5;
-        }
-
-        .square-medium:hover{
-            box-shadow: 2px 2px 2px 2px black inset;
-            transform: scale(1.5);
-
-            z-index: 3 !important;
-        }
-
-
-        .profpic{
-            transition: 2s;
-        }
-
-        .profpic:hover{
-            box-shadow: 2px 2px 2px 2px black inset;
-            transform: scale(1.5);
-
-            z-index: 1 !important;
-        }
-
-        .gitpic:hover{
-            opacity: 0.3 !important;
-        }
-
-
-        </Style>
-
     </head>
 
 
     <body>
-
-        <script>
-            function myFunction() {
-               var element = document.body;
-               element.classList.toggle("dark-mode");
-            }
-        </script>
-
- 
+        <!--Middle Blocks Images ETC.-->
         <center>
-        <div style=" transform: translate(19%, 10%); display: inline-flex">
-            <img class="profpic" style="margin-top:130px; width: 13%; height: 5%;" src="res/mepic6.jpeg"></img>
+            <div style=" transform: translate(19%, 10%); display: inline-flex">
+                <img class="profpic" style="margin-top:130px; width: 13%; height: 5%;" src="res/mepic6.jpeg"></img>
                     
+                <div>
+                    <div style=" background-color: #c4d39a;" class="square-medium">
+                        <h2 style="text-align: center;">Mission</h2>
+                        <p class="profiletext">To color this institution and everyone in it in my own colors.</p>
+                        <p class="profiletext"></p>
+                    </div>  
+
+                    <div style="background-color: #9fb3a1;" class="square-medium">
+                        <h2 style="text-align: center;">Personality</h2>
+                        <ul class="profileul">
+                            <li>Reserved</li>
+                            <li>Single-Minded</li>
+                            <li>Timid</li>
+                            <li>Eccentric</li>
+                            <li>Perfectionist</li>
+                        </ul>
+                    </div>
+                </div>
 
                 <div>
-                    
-                <div style=" background-color: #c4d39a;" class="square-medium">
-                <h1 style="text-align: center;">Mission</h1><p class="profiletext">To color this institution and everyone in it in my own colors.</p>
-                <p class="profiletext"></p></div>  
-
-                
-
-                <div style="background-color: #9fb3a1;" class="square-medium">
-                <h1 style="text-align: center;">Personality</h1>
-                 <ul class="profileul">
-                <li>Reserved</li>
-                <li>Single-Minded</li>
-                <li>Timid</li>
-                <li>Eccentric</li>
-                <li>Perfectionist</li>
-                </ul>
-                </div>
-                
-            </div>
-
-               <div>
-                <div style=" background-color: #8d7e6c;" class="square-medium">
-                    <h1 style="text-align: center;">Story</h1><p class="profiletext">I was born in Turkey where I lived
+                    <div style=" background-color: #8d7e6c;" class="square-medium">
+                        <h2 style="text-align: center;">Story</h2>
+                        <p class="profiletext">I was born in Turkey where I lived
                         for 10 years, then I went to Iraq and stayed 9 years there, after that
                         I moved to Netherlands where I currently attend HZ.</p>
-                    <p class="profiletext"></p></div>  
+                        <p class="profiletext"></p>
+                    </div>  
     
                     <div style="background-color: #96a180;" class="square-medium">
-                    <h1 style="text-align: center;">General</h1>
-                     <ul class="profileul">
-                    <li>Müçteba Mecit Gönül</li>
-                    <li>21</li>
-                    <li>Turkey/Iraq</li>
-                    <li>Breda</li>
-                    </ul>
-
-                    
+                        <h2 style="text-align: center;">General</h2>
+                        <ul class="profileul">
+                            <li>Müçteba Mecit Gönül</li>
+                            <li>21</li>
+                            <li>Turkey/Iraq</li>
+                            <li>Breda</li>
+                        </ul>
+                    </div>
                 </div>
-                
-            </div>
-            <img class="profpic" style="margin-top:130px; width: 15%; height: 5%;" src="res/mepic2.jpeg"></img>
-        </div>    
 
-    </center>
+                <img class="profpic" style="margin-top:130px; width: 15%; height: 5%;" src="res/mepic2.jpeg"></img>
+            </div>    
+        </center>
+
         
+        <!--ASIDE/NAVIGATION BAR ETC.-->
         <aside>
             <div class="sidenavleft">
                 <a href="index.html">Home</a>
@@ -234,104 +82,36 @@
     
             <div class="sidenavright">
                 <a style=" margin-bottom: auto; display: contents;"
-                href="https://hz.nl" target="_blank">
-                <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img></a>
+                    href="https://hz.nl" target="_blank">
+                    <img style="margin-bottom: 5px; margin-left: 10px; width: 90%;" src="res/hzbanner.png"></img>
+                </a>
                 <br></br>
                 <h4 style="font-size: 120%; width: 90%; margin: auto; text-align: center; color: #c5c5c9;">Müçteba Mecit Gönül PCO Website</h4>
                 <hr style="width: 70%;"></hr>
                 <h4 style="font-size: 130%; width: 70%; margin: auto; text-align: center; color: #c5c5c9;">Made with HTML + CSS</h4>
                 <br></br>
                 <center>
-                <button class="lightmode" style="font-weight: bold; font-size: 120%;
-                color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
-                <br></br><br></br><br></br><br></br></center>
+                    <button class="lightmode" style="font-weight: bold; font-size: 120%;
+                    color: #b1be00e0; background-color: #00f5f52c; width: 215px; " onclick="myFunction()">💡</button>
+                    <br></br><br></br><br></br><br></br>
+                </center>
                 <center>
-                <a style=" margin-bottom: auto; display: contents;"
-                 href="https://github.com/mmecitgonul" target="_blank">
-                <img class="gitpic" style="width: 50%; opacity: 0.7" src="res/gitpic.png">
-                </img></a><hr style="width: 70%;"></hr>
+                    <a style=" margin-bottom: auto; display: contents;"
+                      href="https://github.com/mmecitgonul" target="_blank">
+                      <img class="gitpic" style="width: 50%; opacity: 0.7" src="res/gitpic.png"></img>
+                    </a>
+                    <hr style="width: 70%;"></hr>
                 </center>
             </div>
         </aside>
 
 
+        <!--Toogle Dark-mode Script-->
+        <script>
+            function myFunction(){
+              var element = document.body;
+              element.classList.toggle("dark-mode");
+            }
+        </script>
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
