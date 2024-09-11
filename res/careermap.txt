@@ -1,0 +1,91 @@
+━━━━━━━━━━━━━━━━━━━━[FIELDS]━━━━━━━━━━━━━━━━━━━━━━
+<Service>
+      [Desktop Support Technician/Admin]
+------------------------------------
+<Development>
+      [Applications Developer]
+      [Full-Stack Web Developer]
+------------------------------------
+<Misc>
+      [UX Specialist]
+      [Indie Game Dev]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+━━━━━━━━━━━━━━━━━━[ENVIRONMENT]━━━━━━━━━━━━━━━━━━━   
+<Guidelines>
+ [Small Scale & Flexible Environment]
+ [No Extended IT Infastructure Handling]
+ [Degree Of Autonomy][Prayer Time]
+ 
+<Specialisation>
+ [Resource Constrained][Flexibility/Versatility]
+ [Lean IT/Dev Practices][Agile Methodologies]
+ [Procurement/Evaluation][Direct Handling]
+
+<Quirks>
+ [OnSite Willingness][Piracy Oriented]
+ [Absolute Contentment][Mild Eccentricity]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+━━━━━━━━━━━━━━━━━━━[ESSENTIALS]━━━━━━━━━━━━━━━━━━━
+<OS>
+ [Win][Linux][Mac]
+
+<Language>
+ [Python][C#][C++]
+ [JS/HTML/CSS]
+
+<Service>
+ [Azure]                                      
+---------------------------------------------
+<#>                                            
+(mRemoteNG)(Qemu/KVM)(SysInternals)
+(Suricata)(Zabbix)(Docker)(ActiveDirectory)
+(BatchPatch)(ForensiT)(Ansible)(Powershell)
+<#>
+[Imaging][Patching][Migration] 
+[Containerisation][Automation]                          
+[Virtualisation][OS Provisioning]        
+[Troubleshooting][Backup/Recovery]
+[Monitoring][Benchmarking][SysLoging]           
+[UnifiedEndPointManagement][Directory]
+[SecurityManagement][AccesManagement]      
+[RemoteManagement][AssetManagement]  
+[CrisisManagement][Networking][Cloud]
+[HardwareManagement/Maintenance]
+[Peripherals][Databases][Servers]                         
+---------------------------------------------
+</>
+(VS/Code)(SQL/*)(.NET)(Flask)(Qt)(ASP)
+(Typescript)(React)(Apache)
+</>
+[FrontEnd][BackEnd][CrossPlatform][DevOps]
+[IDEs][Frameworks/Libraries][RESTfulAPIs]
+[DatabaseManagement][ServerHosts]
+---------------------------------------------
+<*>
+(AdobeXD)(Matomo){[UX/UI]} 
+<*>
+[UserFlows][UserPersonas][ABTesting]
+[SentimentAnalysis][Feedback][Analytics]
+---------------------------------------------
+<+>
+(Godot)(Audacity)(Scapple)
+ 
+<+>
+[Engine/Editor][DesignDoc][Prototyping]
+[Music][Audio][Art][Animation][VFX]
+[Mechanics][Narrative][Localisation]
+[IP/LegalAffairs][Marketing/Publishing]
+[TechnicalSupport][Community/Feedback]
+---------------------------------------------
+<~>
+(Git)(Github)(Office)(GoogleWS)
+
+<~>
+[Collaboration][ProjectManagement]
+[Documentation][VersionControlSystem]
+[ITServiceManagement][RemoteWorking]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
