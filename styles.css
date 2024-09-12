@@ -71,6 +71,10 @@ h1{
     transform: translate(0%, -7%);
 }
 
+h4{
+    font-family: "Trebuchet MS";
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -233,6 +237,7 @@ td, th {
 border: 1px solid #5f5b5b;
 text-align: center;
 padding: 1px;
+font-family: "Franklin Gothic Medium";
 }
 
 tr:nth-child(even) {
@@ -291,6 +296,7 @@ cursor: pointer;
 font-size: 150%;
 text-align: center;
 margin: auto;
+font-family:monospace;
 }
 
 details > p {
@@ -300,6 +306,7 @@ margin: 0;
 text-align: center;
 font-size: 160%;
 box-shadow: 1px 1px 2px #bbbbbb;
+font-family:"Haettenschweiler";
 }
 
 details[open] summary ~ * {
@@ -339,11 +346,15 @@ animation: sweep .5s ease-in-out;
 .profiletext{
     font-size: 100%;
     text-align: center;
+    font-family:Helvetica;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.253);
 }
 .profileul{
     font-size: 120%;
     transform: translate(1%, -7%);
     list-style-type:square !important;
+    font-family:Tahoma;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.253);
 }
 
 .square-medium:hover{
