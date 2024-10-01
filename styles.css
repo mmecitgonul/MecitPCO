@@ -17,7 +17,7 @@ body{
     overflow-x: hidden;
     padding-top: 10px;
     box-shadow: 2px 2px #c5c5c998;
-    transition: width 0.3s;
+    transition: width 0.3s !important;
 }
 
 .sidenavright {
@@ -31,7 +31,7 @@ body{
     overflow-x: hidden;
     padding-top: 20px;
     box-shadow: -2px -2px #c5c5c998;
-    transition: width 0.3s;
+    transition: width 0.3s !important;
 }
 
 .sidenavright:hover {
@@ -174,7 +174,7 @@ a{
     background-color: #9c6a3e;
     rotate: 45deg;
     margin: auto;
-    transition: 0.4s;
+    transition: 0.4s !important;
 }
 
 .square-big{
@@ -238,7 +238,7 @@ border: 1px solid #5f5b5b;
 text-align: center;
 padding: 1px;
 font-family: "Franklin Gothic Medium";
-transition: 0.05s;
+transition: 0.05s !important;
 }
 
 tr:nth-child(even) {
@@ -333,7 +333,7 @@ animation: sweep .5s ease-in-out;
     height: 220px;
     width: 220px;
     background-color: rgb(203, 204, 204);
-    transition: 0.2s;
+    transition: 0.2s !important;
 }
 
 .squarelink{
@@ -366,7 +366,7 @@ animation: sweep .5s ease-in-out;
 }
 
 .profpic{
-    transition: 0.2s;
+    transition: 0.2s !important;
 }
 
 .profpic:hover{
