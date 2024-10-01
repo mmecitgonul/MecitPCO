@@ -17,7 +17,7 @@ body{
     overflow-x: hidden;
     padding-top: 10px;
     box-shadow: 2px 2px #c5c5c998;
-    transition: width 2s;
+    transition: width 0.3s;
 }
 
 .sidenavright {
@@ -31,7 +31,7 @@ body{
     overflow-x: hidden;
     padding-top: 20px;
     box-shadow: -2px -2px #c5c5c998;
-    transition: width 2s;
+    transition: width 0.3s;
 }
 
 .sidenavright:hover {
@@ -174,7 +174,7 @@ a{
     background-color: #9c6a3e;
     rotate: 45deg;
     margin: auto;
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .square-big{
@@ -207,7 +207,7 @@ a{
 
 .divpic{
    font-family: Cambria;
-   transition: opacity 0.5s;
+   transition: opacity 0.2s;
 }
 
 .divpic:hover{
@@ -238,6 +238,7 @@ border: 1px solid #5f5b5b;
 text-align: center;
 padding: 1px;
 font-family: "Franklin Gothic Medium";
+transition: 0.05s;
 }
 
 tr:nth-child(even) {
@@ -332,7 +333,7 @@ animation: sweep .5s ease-in-out;
     height: 220px;
     width: 220px;
     background-color: rgb(203, 204, 204);
-    transition: 2s;
+    transition: 0.2s;
 }
 
 .squarelink{
@@ -359,18 +360,18 @@ animation: sweep .5s ease-in-out;
 
 .square-medium:hover{
     box-shadow: 2px 2px 2px 2px black inset;
-    transform: scale(1.5);
+    transform: scale(1.06) !important;
 
     z-index: 3 !important;
 }
 
 .profpic{
-    transition: 2s;
+    transition: 0.2s;
 }
 
 .profpic:hover{
     box-shadow: 2px 2px 2px 2px black inset;
-    transform: scale(1.5);
+    transform: scale(1.3) !important;
 
     z-index: 1 !important;
 }
