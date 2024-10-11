@@ -242,7 +242,7 @@ transition: 0.05s !important;
 }
 
 tr:nth-child(even) {
-background-color: #424943;
+background-color: #cbd0cc;
 }
 tr:nth-child(odd) {
 background-color: #302e2e;
